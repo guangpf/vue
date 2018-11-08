@@ -1,0 +1,12 @@
+.bottom_banner{width:100%;/* margin: 15px auto; */padding: 30px 0;/* border-bottom:1px solid #ddd; */}
+.bottom_banner .b_b_con{width:100%;max-width: 1200px;height:100px;margin:0 auto;overflow: hidden;}
+.bottom_banner .b_b_item{width:33.3333%;float:left}
+.bottom_banner .b_b_img{width: 60px;height: 56px;margin:0 auto;}
+.bottom_banner .b_b_img img{width:100%;height:100%;}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */    color:#8e8e8e; }
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */   color:#8e8e8e; }
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */   color:#8e8e8e; }
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */   color:#8e8e8e; }

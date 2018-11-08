@@ -1,0 +1,9 @@
+*{-webkit-tap-highlight-color:transparent;outline:0}
+a,a:visited{text-decoration:none;color:#333}
+ol,ul{list-style:none}
+li,ul{margin:0;padding:0;list-style-type:none}
+img{border:0 none;vertical-align:top}
+*{-webkit-tap-highlight-color:transparent;outline:0}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th{margin:0;padding:0;vertical-align:baseline}
+body{margin:0 auto;font-size:14px;font-family:Microsoft YaHei,Arial,Helvetica;line-height:1.5;color: #5a5a5a;-webkit-text-size-adjust:100%!important;background: #fff;}
+.hide{display: none}
