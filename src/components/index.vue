@@ -1,8 +1,9 @@
-
 <template>
     <div class="main">
         <div class="all_category"><span class="all_tit">全部分类</span><span class="all_right"></span></div>
-        <div class="banner" style="margin:0 auto;width:1200px;margin-bottom:15px"><img style="width:100%" src="http://ovukdi6bj.bkt.clouddn.com/885009140518201806.png" alt=""></div>
+        <div class="banner" style="margin:0 auto;width:1200px;margin-bottom:15px"><img style="width:100%"
+                                                                                       src="http://img.labtaobao.com/885009140518201806.png"
+                                                                                       alt=""></div>
         <div class="lab_content">
             <div class="main_info main_info_add">
                 <ul class="info_list">
@@ -32,7 +33,7 @@
                         <div class="the_tit">每周热淘 <span>HOT</span></div>
                         <div class="brand_img">
                             <div class="brand_img_item" data-id="">
-                                <img src="http://ovukdi6bj.bkt.clouddn.com/479709592611201709.png" alt="">
+                                <img src="http://img.labtaobao.com/479709592611201709.png" alt="">
                             </div>
                         </div>
                         <div class="promotion_time">10月16日</div>
@@ -75,7 +76,8 @@
                 </div>
                 <div class="cat_list">
                     <div class="cat_item">
-                        <div class="item_left balance" style="background:url(http://ovukdi6bj.bkt.clouddn.com/678402462819201839.jpg) no-repeat;background-size:100% 100%">
+                        <div class="item_left balance"
+                             style="background:url(http://img.labtaobao.com/678402462819201839.jpg) no-repeat;background-size:100% 100%">
                             <div class="cat2_name">磁力搅拌器</div>
                             <div class="cat3_con">
                                 <div class="cat3_list">
@@ -87,7 +89,7 @@
                             <div class="pro_list">
                                 <div class="pro_item" data-productno="">
                                     <div class="pro_img">
-                                        <img src="http://ovukdi6bj.bkt.clouddn.com/299708052210201824.png" alt="">
+                                        <img src="http://img.labtaobao.com/299708052210201824.png" alt="">
                                     </div>
                                     <div class="pro_info">
                                         <div class="pro_name">微量高速离心机,5424, 非冷冻型, 含气密性固定角转 FA-45-24-11, 旋钮式</div>
@@ -97,7 +99,7 @@
                                 </div>
                                 <div class="pro_item" data-productno="">
                                     <div class="pro_img">
-                                        <img src="http://ovukdi6bj.bkt.clouddn.com/299708052210201824.png" alt="">
+                                        <img src="http://img.labtaobao.com/299708052210201824.png" alt="">
                                     </div>
                                     <div class="pro_info">
                                         <div class="pro_name">微量高速离心机,5424, 非冷冻型, 含气密性固定角转 FA-45-24-11, 旋钮式</div>
@@ -107,7 +109,7 @@
                                 </div>
                                 <div class="pro_item" data-productno="">
                                     <div class="pro_img">
-                                        <img src="http://ovukdi6bj.bkt.clouddn.com/299708052210201824.png" alt="">
+                                        <img src="http://img.labtaobao.com/299708052210201824.png" alt="">
                                     </div>
                                     <div class="pro_info">
                                         <div class="pro_name">微量高速离心机,5424, 非冷冻型, 含气密性固定角转 FA-45-24-11, 旋钮式</div>
@@ -127,32 +129,32 @@
                 <div class="brand_lst">
                     <div class="b_item" title="品牌" data-id="品牌">
                         <div class="b_item_img">
-                            <img src="http://ovukdi6bj.bkt.clouddn.com/524104521416201831.png" alt="">
+                            <img src="http://img.labtaobao.com/524104521416201831.png" alt="">
                         </div>
                     </div>
                     <div class="b_item" title="品牌" data-id="品牌">
                         <div class="b_item_img">
-                            <img src="http://ovukdi6bj.bkt.clouddn.com/524104521416201831.png" alt="">
+                            <img src="http://img.labtaobao.com/524104521416201831.png" alt="">
                         </div>
                     </div>
                     <div class="b_item" title="品牌" data-id="品牌">
                         <div class="b_item_img">
-                            <img src="http://ovukdi6bj.bkt.clouddn.com/524104521416201831.png" alt="">
+                            <img src="http://img.labtaobao.com/524104521416201831.png" alt="">
                         </div>
                     </div>
                     <div class="b_item" title="品牌" data-id="品牌">
                         <div class="b_item_img">
-                            <img src="http://ovukdi6bj.bkt.clouddn.com/524104521416201831.png" alt="">
+                            <img src="http://img.labtaobao.com/524104521416201831.png" alt="">
                         </div>
                     </div>
                     <div class="b_item" title="品牌" data-id="品牌">
                         <div class="b_item_img">
-                            <img src="http://ovukdi6bj.bkt.clouddn.com/524104521416201831.png" alt="">
+                            <img src="http://img.labtaobao.com/524104521416201831.png" alt="">
                         </div>
                     </div>
                     <div class="b_item" title="品牌" data-id="品牌">
                         <div class="b_item_img">
-                            <img src="http://ovukdi6bj.bkt.clouddn.com/524104521416201831.png" alt="">
+                            <img src="http://img.labtaobao.com/524104521416201831.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -174,40 +176,48 @@
 
 </template>
 <script>
-export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  },
-    methods:{
-        getData: function () {
-            let c=this;
-            this.$http.get({
-                method: 'GET',
-                url:'http://192.168.1.200:8066/Page/GetHomePageCfg',
-                params: {}
-            })
-            // let api = 'http://192.168.1.66:8066/WxAppHome/GetMiniAppHomePageCfg'
-            // c.$http.jsonp(api,{credentials:true}).then( res=> {
-            //     console.log(res.body);
-            // }).catch(error =>{
-            //
-            // })
-
+    export default {
+        name: 'HelloWorld',
+        data() {
+            return {
+                msg: 'Welcome to Your Vue.js App'
+            }
         },
-        //点击搜索
-        toSearch:function(){
-            alert(1)
+        mounted() {
+            this.getData()
+        },
+        methods: {
+            getData() {
+                this.$http({
+                    url: 'http://192.168.1.200:8066/Page/GetHomePageCfg',
+                    method: 'Get',
+                    params: {
+
+                    }
+                }).then((res) => {
+                    console.log('res =', res)
+                }).catch((err) => {
+                    console.log('err =', err)
+                })
+                // let api = 'http://192.168.1.66:8066/WxAppHome/GetMiniAppHomePageCfg'
+                // c.$http.jsonp(api,{credentials:true}).then( res=> {
+                //     console.log(res.body);
+                // }).catch(error =>{
+                //
+                // })
+
+            },
+            //点击搜索
+            toSearch: function () {
+                alert(1)
+            }
         }
+
+
     }
-
-
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  @import '../../static/css/index.css';
+    @import '../../static/css/index.css';
 </style>

@@ -3,9 +3,9 @@ var wxAuthUr = protocol + '//open.weixin.qq.com/connect/oauth2/authorize?appid={
 
 if (process.env.NODE_ENV === 'dev' || process.env.NODE_ENV === 'testing') { //本地环境，测试环境
 
-    global.host = protocol + '//test.in-hope.com.cn/v1/';
+    global.host = protocol + '//192.168.1.200:8066/';
     global.appid = 'wx3313bba3a77541ef'; //api.in-hope.com.cn appid
-    global.currentIp = protocol + "//test.in-hope.com.cn/";
+    global.currentIp = protocol + "//192.168.1.200:8066/";
 
 } else if (process.env.NODE_ENV === 'pre') {  //预发布环境
 
