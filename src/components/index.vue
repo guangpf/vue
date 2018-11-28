@@ -1,9 +1,7 @@
 <template>
     <div class="main">
         <div class="all_category"><span class="all_tit">全部分类</span><span class="all_right"></span></div>
-        <div class="banner" style="margin:0 auto;width:1200px;margin-bottom:15px"><img style="width:100%"
-                                                                                       src="http://img.labtaobao.com/885009140518201806.png"
-                                                                                       alt=""></div>
+        <div class="banner" style="margin:0 auto;width:1200px;margin-bottom:15px"><img style="width:100%" src="http://img.labtaobao.com/885009140518201806.png" alt=""></div>
         <div class="lab_content">
             <div class="main_info main_info_add">
                 <ul class="info_list">
@@ -188,8 +186,8 @@
         },
         methods: {
             getData() {
-                this.$http({
-                    url: 'http://192.168.1.200:8066/Page/GetHomePageCfg',
+                this.$Http({
+                    url: '/Page/GetHomePageCfg',
                     method: 'Get',
                     params: {
 
