@@ -34,8 +34,10 @@
                 <div class="contact_tit">联系我们</div>
                 <div class="con_item introduce"><a href="/home/about_us" target="_blank">关于实验淘</a></div>
                 <div class="con_item"><a href="/mycenter/feedBack" target="_blank">用户反馈</a></div>
-                <div class="con_item con_contact"><span class="icons"></span><span class="con_w">021-31009321</span></div>
-                <div class="con_item contact_mail"><span class="icons"></span><span class="con_w">service@labtaobao.com</span></div>
+                <div class="con_item con_contact"><span class="icons"></span><span class="con_w">021-31009321</span>
+                </div>
+                <div class="con_item contact_mail"><span class="icons"></span><span
+                    class="con_w">service@labtaobao.com</span></div>
             </div>
             <div class="contact">
                 <div class="contact_tit">行业链接</div>

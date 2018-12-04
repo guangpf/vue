@@ -1,17 +1,24 @@
 <template>
     <div class="hello">
         <h1>{{ msg }}</h1>
+        <v-tabBar></v-tabBar>
     </div>
 </template>
 
 <script>
+  import tabBar from './tabBar'
+
   export default {
     name: 'index',
     data() {
       return {
         msg: '我的品牌'
       }
-    }
+    },
+    components: {
+      'v-tabBar': tabBar
+    },
+
   }
 </script>
 

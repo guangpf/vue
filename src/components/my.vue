@@ -1,18 +1,24 @@
 <template>
     <div class="hello">
         <h1>{{ msg }}</h1>
+        <v-tabBar></v-tabBar>
     </div>
 </template>
 
 <script>
-  export default {
-    name: 'index',
-    data() {
-      return {
-        msg: '我的品牌'
-      }
+    import tabBar from './tabBar'
+
+    export default {
+        name: 'index',
+        data() {
+            return {
+                msg: '个人中心'
+            }
+        },
+        components: {
+            'v-tabBar': tabBar
+        },
     }
-  }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

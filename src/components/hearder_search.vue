@@ -14,7 +14,7 @@
                     <li class="tab_item about" data-url="/home/about_us">关于实验淘</li>
                 </ul>
                 <div class="search">
-                    <span class="search_in"  id="search_in">请输入产品名称 品牌 型号</span>
+                    <span class="search_in" id="search_in">请输入产品名称 品牌 型号</span>
                     <div class="search_img"><span><img src="../../static/img/home/search.png" alt=""></span></div>
                 </div>
             </div>

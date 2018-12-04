@@ -17,7 +17,7 @@
                 <li class="register" id="register">
                     立即注册
                 </li>
-                <li class="top_item user_name hide" id  ="user_name">
+                <li class="top_item user_name hide" id="user_name">
                     <span class="user"></span>
                     <span class="vip_down"></span>
                     <div class="vip_slide hide">

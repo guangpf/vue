@@ -376,8 +376,44 @@ const objectUtil = {
         }
     }
 };
+const MAjaxUtil = {
+    ajax:function(ajaxParam){
+        if(!ajaxParam || !ajaxParam.url){
+            return false;
+        }
+        $.ajax({
+            url:ajaxParam.url,
+            type:ajaxParam.type || "post",
+            dataType:ajaxParam.dataType || "json",
+            async:ajaxParam.async === false ? false : true,
+            data:ajaxParam.data || {},
+            success: function(arg){
+                if(!ajaxParam.success){
+                    return ;
+                }
+                if(ajaxParam.before){
+                    ajaxParam.before.call();
+                }
+                if (arg.errno!=undefined) {
+                    if(arg.errno == -1000){
+                        var returnUrl=location.href;
+                        return location.href="/login/index?returnUrl="+encodeURIComponent(returnUrl);
+                    }
+                }
+                ajaxParam.success.call(ajaxParam.scope,arg);
+            },
+            error:function(arg){
+                if(!ajaxParam.error){
+                }
+                ajaxParam.error.call(ajaxParam.scope,arg);
+            }
+        });
+        return true;
+    }
+};
 module.exports = {
     string:generalUtil,
     object:objectUtil,
+    http:MAjaxUtil
     // TimeStampConvertTime:TimeStampConvertTime
 }
